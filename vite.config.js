@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite';
+import legacy from '@vitejs/plugin-legacy';
 
 export default defineConfig({
   base: '/vite-project/',
@@ -6,4 +7,7 @@ export default defineConfig({
   build: {
     outDir: '../dist',
   },
+  plugins: [
+    legacy(),
+  ],
 });
