@@ -27,7 +27,7 @@ const projectRootDir = path.resolve(__dirname);
 // });
 
 export default defineConfig({
-  base: '/vite-project',
+  base: '/vite-project/',
   root: 'src',
   build: {
     outDir: '../dist',
